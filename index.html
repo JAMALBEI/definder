@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <script src="script.js" defer></script>
+
   </head>
   <body>
     <header>
@@ -30,7 +32,7 @@
     </header>
     <div class="searchbar">
       <img src="./assets/search.png" alt="search icon" />
-      <input type="text" placeholder="Search Github username.." />
+      <input class="input" type="text" placeholder="Search Github username.." />
       <button type="button">Search</button>
     </div>
 
@@ -38,28 +40,28 @@
       <div class="info">
         <img src="./assets/Oval.png" alt="" />
         <div>
-          <h3>The Octocat</h3>
-          <p>@octocat</p>
-          <span>Joined 25 Jan 2011</span>
+          <h3 id="saxeli">The Octocat</h3>
+          <p id="paragraph">@octocat</p>
+          <span id="entry">Joined 25 Jan 2011</span>
         </div>
       </div>
-      <p class="bio">
+      <p id="bio">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit,
         provident.
       </p>
 
       <div class="card">
         <div>
-          <h3>Repos</h3>
-          <p>8</p>
+          <h3 id="Repos">Repos</h3>
+          <p id="repo_count">8</p>
         </div>
         <div>
-          <h3>Followers</h3>
-          <p>3938</p>
+          <h3 class="Followers">Followers</h3>
+          <p id="followers_count">3938</p>
         </div>
         <div>
-          <h3>Following</h3>
-          <p>9</p>
+          <h3 id="Following">Following</h3>
+          <p id="following_count">9</p>
         </div>
       </div>
 
